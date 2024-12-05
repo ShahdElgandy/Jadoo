@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Volkhov", serif;
+  box-sizing: border-box;
+}
+:root{
+  --Black:#000000;
+  --Jelly_Bean:#DF6951;
+  --Space_Cadet:#181E4B;
+  --Orange:#F1A501;
+  --Dark_Electric_Blue:#5E6282;
+  --Halloween_Orange:#F15A2B;
+  --Blue_Sapphire:#006380;
+  --Medium_Slate_Blue:#747DEF;
+}
