@@ -1,16 +1,49 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: "Volkhov", serif;
   box-sizing: border-box;
 }
-:root{
-  --Black:#000000;
-  --Jelly_Bean:#DF6951;
-  --Space_Cadet:#181E4B;
-  --Orange:#F1A501;
-  --Dark_Electric_Blue:#5E6282;
-  --Halloween_Orange:#F15A2B;
-  --Blue_Sapphire:#006380;
-  --Medium_Slate_Blue:#747DEF;
+:root {
+  --Black: #000000;
+  --Jelly_Bean: #df6951;
+  --Space_Cadet: #181e4b;
+  --Orange: #f1a501;
+  --Dark_Electric_Blue: #5e6282;
+  --Halloween_Orange: #f15a2b;
+  --Blue_Sapphire: #006380;
+  --Medium_Slate_Blue: #747def;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  padding-top: 48.7px;
+  padding-left: 140.92px;
+}
+nav ul li {
+  padding-top: 56px;
+  padding-right: 140.92px;
+  list-style: none;
+}
+nav ul li a {
+  padding-right: 40px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  color: var(--Space_Cadet);
+}
+.sign_up {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+nav ul li select {
+  padding-left: 30px;
+  border: none;
 }
