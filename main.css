@@ -4,6 +4,11 @@
   font-family: "Volkhov", serif;
   box-sizing: border-box;
 }
+body {
+  background-image: url(assets/images/blob.webp);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
 :root {
   --Black: #000000;
   --Jelly_Bean: #df6951;
@@ -46,4 +51,58 @@ nav ul li a {
 nav ul li select {
   padding-left: 30px;
   border: none;
+  background: none;
+}
+
+.container {
+  display: flex;
+  padding: 105px 20px 40px 100px;
+}
+
+.about {
+  padding-top: 100px;
+}
+
+.tagline {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  color: var(--Jelly_Bean);
+}
+.heading {
+  font-size: 84px;
+  color: var(--Space_Cadet);
+}
+.enjoy {
+  background-image: url(assets/images/Decore.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.desc {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: var(--Dark_Electric_Blue);
+}
+.cta {
+  display: flex;
+  align-items: center;
+}
+.cta button {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  color: white;
+  width: 170px;
+  height: 60px;
+  background-color: var(--Orange);
+  border: none;
+  border-radius: 10px;
+}
+
+.cta img {
+  padding-top: 25px;
+}
+.cta a {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: var(--Black);
 }
