@@ -106,3 +106,131 @@ nav ul li select {
   text-decoration: none;
   color: var(--Black);
 }
+
+#services {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+.services {
+  background-image: url(assets/images/Group\ 4.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.category p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  color: var(--Dark_Electric_Blue);
+}
+.category h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: var(--Space_Cadet);
+}
+
+.elements {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-top: 50px;
+}
+.element {
+  width: 260px;
+  height: 310px;
+  text-align: center;
+}
+.element .dish {
+  background-image: url(assets/icons/Rectangle\ 159@2x.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 50px;
+}
+
+.element .plane {
+  background-image: url(assets/icons/Rectangle\ 159@2x.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 50px;
+}
+.element .mic {
+  background-image: url(assets/icons/Rectangle\ 159@2x.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50px;
+}
+.element .power {
+  background-image: url(assets/icons/Rectangle\ 159@2x.png);
+  background-repeat: no-repeat;
+  background-position: 150px;
+  background-size: 50px;
+}
+
+.title_dish {
+  padding-top: 50px;
+}
+.title_dish h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  color: var(--Space_Cadet);
+}
+.title_dish p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: var(--Dark_Electric_Blue);
+}
+
+.title_plane {
+  padding-top: 15px;
+}
+.title_plane h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  color: var(--Space_Cadet);
+}
+.title_plane p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: var(--Dark_Electric_Blue);
+}
+.title_mic {
+  padding-top: 40px;
+}
+.title_mic h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  color: var(--Space_Cadet);
+}
+.title_mic p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: var(--Dark_Electric_Blue);
+}
+.title_power {
+  padding-top: 60px;
+}
+.title_power h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  color: var(--Space_Cadet);
+}
+.title_power p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: var(--Dark_Electric_Blue);
+}
+
+.element_plane {
+  width: 260px;
+  height: 310px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 4px 4px 20px #00000038;
+  border-radius: 36px;
+}
